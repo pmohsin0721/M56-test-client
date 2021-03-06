@@ -1,10 +1,10 @@
 import "./App.css";
-import paymentForm from "./paymentForm.js";
+import Form from "./Form";
 
 function App() {
   return (
     <>
-      <paymentForm />
+      <Form />
     </>
   );
 }

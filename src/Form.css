@@ -1,0 +1,100 @@
+body {
+	color: #fff;
+	background: #00a7e5;
+	font-family: 'Roboto', sans-serif;
+}
+img{
+    
+    align-items: center;
+    height: 100px;
+    width: 200px;
+}
+.form-two-control {
+	width: 400px;
+	height: 41px;
+	background: #f2f2f2;
+	box-shadow: none;
+	border: none;
+}
+.form-two-control:focus {
+	background: #e2e2e2;
+}
+.form-two-control, .btn {        
+	border-radius: 3px;
+}
+.payment-form {
+	width: 500px;
+	margin: 30px auto;
+}
+.payment-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.payment-form h2  {
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.payment-form p{
+	text-align: center;
+}
+.payment-form hr  {
+	margin: 0 -30px 20px;
+}    
+.payment-form .form-group {
+	margin-bottom: 20px;
+}
+
+.payment-form .row div:first-child {
+	padding-right: 10px;
+}
+.payment-form .row div:last-child {
+	padding-left: 10px;
+}
+.payment-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	min-width: 140px;
+}
+.payment-form .btn:hover, .payment-form .btn:focus {
+	background: #2389cd !important;
+	outline: none;
+}
+.payment-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.payment-form a:hover {
+	text-decoration: none;
+}
+.payment-form form a {
+	color: #3598dc;
+	text-decoration: none;
+}	
+.payment-form form a:hover {
+	text-decoration: underline;
+}
+.payment-form .hint-text  {
+	padding-bottom: 25px;
+	text-align: center;
+}
+@media screen and (max-width: 500px) {
+	.payment-form {
+		width: 300px;
+		margin: 30px auto;
+	}
+	.form-two-control {
+		width: 250px;
+		height: 41px;
+		background: #f2f2f2;
+		box-shadow: none;
+		border: none;
+	}
+}
